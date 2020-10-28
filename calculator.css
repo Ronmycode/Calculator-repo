@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(225, 234, 240);
+}
+
+#calculator-body{
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	background-color: rgb(162, 172, 179);
+}
+#brand{
+	height: 50px;
+	color: black;
+	font-weight: 700;
+	margin-left: 100px;
+
+}
+#screen{
+	width: 500px;
+	height: 100px;
+	margin: auto;
+	background-color: rgba(92, 186, 80, 30);
+}
+#buttons{
+	width: 500px;
+	margin: auto;
+	background-color: rgb(179, 192, 201);
+}
+
+.B-digits{
+	width: 50px;
+	background-color: rgb(132, 136, 138);
+}
