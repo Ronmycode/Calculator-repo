@@ -1,4 +1,18 @@
-dont work
+const winner = [0, 0]
+let ticket = [];
+
+// while(ticket !== winner){
+//     for (i=0; i<=1; i++){
+//         var num = Math.floor(Math.random() * 3);
+//         console.log(num);
+//         ticket.push(num);
+//         console.log(ticket);
+//     }
+// }
+
+
+
+// dont work
 // var winner_numbers = 0;
 // var ticket = 0;
 
