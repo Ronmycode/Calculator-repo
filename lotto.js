@@ -1,22 +1,21 @@
-//trying with a slot machine
+//tryi[0]ith a slot machine
 
 
-const reels = {
-    reel_one : 1,
-    reel_two : 2,
-    reel_three : 3
-};
-
-
-
+const reels = [];
 
 function pull (){
     for(i=0; i<=2; i++){
-    reels[i] = Math.floor(Math.random() * 5);
+    reels[i] = Math.floor(Math.random() * 2);
+    console.log(reels[i]);
     }
 }
 
-
+function evaluate(){
+    if (reels[0]=== reels[1] && reels[0] === reels [2]){
+        console.log("winner, winner, chicken dinner!!");
+    }
+}
 
 pull();
 console.log(reels);
+stop();
