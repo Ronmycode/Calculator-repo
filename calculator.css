@@ -23,6 +23,18 @@ body{
 	border-radius: 5px;
 	background-color: rgba(92, 186, 80, 30);
 }
+
+#display{
+	text-align: right;
+	font-size: 25px;
+}
+
+#result{
+	text-align: right;
+	vertical-align: bottom;
+	font-size: 40px;
+}
+
 #buttons{
 	width: 500px;
 	margin: auto;
